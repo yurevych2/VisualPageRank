@@ -3,6 +3,7 @@ import networkx as nx
 import numpy as np
 from matplotlib.colors import Normalize, LinearSegmentedColormap
 from matplotlib.cm import ScalarMappable
+from data import round_1, round_2, round_3
 
 
 
@@ -100,6 +101,14 @@ if __name__ == "__main__":
         'D': ['A']
     }
 
-    pagerank_scores = calculate_pagerank_with_linear_algebra(graph)
+    pagerank_scores = calculate_pagerank_with_linear_algebra(round_1)
     print(pagerank_scores)
-    visualize_pagerank_color_by_size(graph, pagerank_scores)
+    visualize_pagerank_color_by_size(round_1, pagerank_scores)
+
+    pagerank_scores = calculate_pagerank_with_linear_algebra(round_2)
+    print(pagerank_scores)
+    visualize_pagerank_color_by_size(round_2, pagerank_scores)
+    
+    pagerank_scores = calculate_pagerank_with_linear_algebra(round_3)
+    print(pagerank_scores)
+    visualize_pagerank_color_by_size(round_3, pagerank_scores)
