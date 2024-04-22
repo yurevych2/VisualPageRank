@@ -11,7 +11,7 @@ Page Rank extended with handling dangling nodes and a visualization tool.
 
 
 Pictures:
-- performance_plot.png - results of the benchmark (random graphs with 50, 100, 150, 200, 250, 300, 350, 400 nodes, the minimal time during 50 iterations per certain size of a graph);
+- performance_plot.png - results of the benchmark (random graphs with 50, 100, 150, 200, 250, 300 nodes, the minimal time during 50 iterations per certain size of a graph);
 - round_1.png - the visualization of the first round of the tournament;
 - round_2.png - the visualization of the second round of the tournament;
 - round_3.png - the visualization of the third round of the tournament.
